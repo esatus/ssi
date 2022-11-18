@@ -256,6 +256,7 @@ pub enum Algorithm {
     ESKeccakKR,
     ESBlake2b,
     ESBlake2bK,
+    BLS12381,
     #[doc(hidden)]
     AleoTestnet1Signature,
     // Per the specs it should only be `none` but `None` is kept for backwards compatibility
@@ -339,11 +340,18 @@ impl JWK {
     }
 
     //#[cfg(feature = "bbs")]
-    pub fn generate_bls12381_2020() -> Option<String> {
-        let (pk, sk) = Issuer::new_keys(5).unwrap();
+    pub fn generate_bls12381_2020() -> Result<JWK, Error> {
+        let (pk, sk) = Issuer::new_keys(1).unwrap();
         let pk_bytes = pk.to_bytes_compressed_form();
-        let result = String::from(Base64urlUInt(pk_bytes));
-        return Some(result);
+        let sk_bytes = sk.to_bytes_compressed_form().to_vec();
+
+        let params = Params::OKP(OctetParams {
+            curve: "Bls12381G2".to_string(),
+            public_key: Base64urlUInt(pk_bytes),
+            private_key: Some(Base64urlUInt(sk_bytes))
+        });
+
+        Ok(JWK::from(params))
     }
 
     pub fn get_algorithm(&self) -> Option<Algorithm> {
@@ -352,6 +360,7 @@ impl JWK {
         }
         match &self.params {
             Params::RSA(_) => {
+                println!("algorithm: rsa");
                 return Some(Algorithm::PS256);
             }
             Params::OKP(okp_params) if okp_params.curve == "Ed25519" => {
@@ -375,6 +384,9 @@ impl JWK {
                     }
                     "P-384" => {
                         return Some(Algorithm::ES384);
+                    }
+                    "BLS12-381" => {
+                        return Some(Algorithm::BLS12381)
                     }
                     _ => {}
                 }
