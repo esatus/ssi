@@ -1117,6 +1117,7 @@ impl LinkedDataDocument for Credential {
         parent: Option<&(dyn LinkedDataDocument + Sync)>,
         context_loader: &mut ContextLoader,
     ) -> Result<DataSet, LdpError> {
+        eprintln!("to_dataset_for_signing, impl LinkedDataDocument for Credential");
         let mut copy = self.clone();
 
         copy.proof = None;

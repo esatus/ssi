@@ -494,7 +494,7 @@ where
         expand_context,
         // VC HTTP API Test Suite expect properties to not be silently dropped.
         // More info: https://github.com/timothee-haudebourg/json-ld/issues/13
-        expansion_policy: json_ld::expansion::Policy::Strict,
+        expansion_policy: json_ld::expansion::Policy::Relaxed,
         ..Default::default()
     };
 
@@ -502,6 +502,7 @@ where
     let mut generator =
         rdf_types::generator::Blank::new_with_prefix("b".to_string()).with_default_metadata();
     eprintln!("json_to_dataset: 1");
+    // this is likely the remote call
     let mut to_rdf = doc
         .to_rdf_using(&mut generator, loader, options)
         .await
