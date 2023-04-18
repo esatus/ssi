@@ -1,21 +1,86 @@
-{
-  "@context": {
-    "@version": 1.1,
-    "id": "@id",
-    "type": "@type",
-    "esrs2020": "https://identity.foundation/EcdsaSecp256k1RecoverySignature2020#",
-    "EcdsaSecp256k1RecoverySignature2020": "esrs2020:EcdsaSecp256k1RecoverySignature2020",
-    "EcdsaSecp256k1RecoveryMethod2020": "esrs2020:EcdsaSecp256k1RecoveryMethod2020",
-    "publicKeyJwk": {
-      "@id": "esrs2020:publicKeyJwk",
-      "@type": "@json"
-    },
-    "privateKeyJwk": {
-      "@id": "esrs2020:privateKeyJwk",
-      "@type": "@json"
-    },
-    "publicKeyHex": "esrs2020:publicKeyHex",
-    "privateKeyHex": "esrs2020:privateKeyHex",
-    "ethereumAddress": "esrs2020:ethereumAddress"
-  }
-}
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Just a moment...</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="/cdn-cgi/styles/challenges.css" rel="stylesheet">
+    
+
+</head>
+<body class="no-js">
+    <div class="main-wrapper" role="main">
+    <div class="main-content">
+        <noscript>
+            <div id="challenge-error-title">
+                <div class="h2">
+                    <span class="icon-wrapper">
+                        <div class="heading-icon warning-icon"></div>
+                    </span>
+                    <span id="challenge-error-text">
+                        Enable JavaScript and cookies to continue
+                    </span>
+                </div>
+            </div>
+        </noscript>
+        <div id="trk_jschal_js" style="display:none;background-image:url('/cdn-cgi/images/trace/managed/nojs/transparent.gif?ray=7b98b82caf92e534')"></div>
+        <form id="challenge-form" action="/EcdsaSecp256k1RecoverySignature2020/lds-ecdsa-secp256k1-recovery2020-0.0.jsonld?__cf_chl_f_tk=PUQxWMawXH8I7Kqf89PdwZ0CAKwNNdtFNxKWxnkJt0o-1681776990-0-gaNycGzNCvs" method="POST" enctype="application/x-www-form-urlencoded">
+            <input type="hidden" name="md" value="MuUtoHMXSerOiSX1UKk2d5Q5lKekkWuE_V1Qoa02rrI-1681776990-0-AbXu_6tACu8wJZwgfR9cJrK0bzynT02KxWgaz9jcus6R5exI0IC3Ru8MkfY4wPDN2j3BbKSEf7UAy4HGnzqZK_IEZssSE8UIbc-fBAk6AUvk6MCMGpTvKF7gVDY9F4iBNXFmR2a6W5MYelL7n89Pp8CiG9Aa7KdyWiO6bejErmM9veNSuEctC5xgaK8hjRf1xrzFiZKPB2gCRdmavDgxcbbryncJIFLitWwocePjkOZu1fW68QIaMZLkzUVOwgWtrc3pCPoGokJ0FQ2Wf9-ag3qxcu3KCOtzyABx7WQag7GBrw8175DSUHcfzPfNpDjgoHS0FPNkavWYU0mDflh2UdwQHQdgpg7z2Jo4jlGdt0HU2rpMTjXmjTLFvC9B8ik2HBqJegOgp50-iXNhLZbbWfhHT5cg_2v3B5x_yXTWuptT3elV1XvIS89_8zWPWT6nAeP6RfFWZEySpHKg3trHnzk2rTWPT9g33Jy_nJ0v-D2fb4LPtSZ0pPndfy2w5OeLhQHVXMTA2oCHG1df_ojbAkLL8IST8h6NXHCJS7mhyLhLhxO0-aQhh5KvPW0PnBtTTgnVpFi3OqoONZPrAsZlOZgrkTrCLiILuiq2iYJXFj_hjx7TwL54nzV-J--OojZBBfpi8Q7_-bgwsmzYPASlPr7i2DGoXshBKrVUlDhsbAlpNmedixTtmnIh1hmTxDcGsUgYQn0t3cor-aor1OOCK66dkLVSTGXosMmHn3XPJvMgPiUO9Nkyfi4mKPg3S7npE_YLXLSly4w56QBqZvEXDh1nZjScKEEdyrwl95XfeQvn-EKhmQi9h24GhzxP-QRYJLMP7FiA3GMztaSX8pe1SC3xEp_31neWn31YcpFqGpGA_hxN5t1MfCRqDAYRG-tlkQovS45izxC7iMNyUj062bNUZ7tUdlfEEVEZ3gTBTW1iMAsHAw64R8MVpwBsAdMhmXM4Im5oT2ulqYhKFE_nulTmp-G4eKAhVamqgJzolIRJ98_cf2eJd-4eGaOdg7PvvLVxJSR_VGHactOXUdsbI0EfCqz56tTrgTMqaIE_zQHrYeBOo-HzTucrZclbIleksg_Q_O-o0NLQTA06nGMSlJHzCy8kWLxO5StC99rdL58So_AQXjokE5Af5kuLBq5n8MaZtWbVbl8b0qKF1TBXqdO7l17WGKFL-eP3QR4wuagHgOzRIykpEuXLmn-ejr8YwQ6nVKiJLFm88YgKKouvYksEs01Jz8gLM0bnoq15ja0yRpxEMKbBOKPvZG4mMiwJBIGE7fR2RHjHy9uBhg8cqTL26NvWFSq99XaJEvrN7XhYtThGKOLDm90EvDNAne_MhR-0b0G-0kjSGE3WwJ090YCsH2J6p3m-_vLZsWxjQM4W-z-XJkKJ7kmi62G0GZeSoC55WuG3PtiaPfCy4GK1jmDKaRbiADq2vg1R8K3Thzr16qi9gd0sUSOvPETYMhu-4bvvYGfimdkQjwpJr2_7KAAlM_xLYqJeQFAsszLqH4Vcyn0syXTGrVqFll6XQMyWnoQN9HJiFxL78SBbSXAkW4aEkbvm2NyvJMDviK7FJodcCZxXZlf_3gnwYdlMbqLQD4Wb-kId3ju7JE0G515ZhPTpgqqrtrgsvDSyOJd4eaVj9HNH5A1BVi0gB3dbSU6KbvSLZHmvbc6MQwI4FiYfF23dsbJC-qa_Ch8g809sNVQOd1sZ20jCt6rIc8bvZulObVotpPETu4zw1rxvZFwH6EVVVV2RJ3LE5jBcetZ5-KkVE9l9qSeNmuPZKaC-iI2Jh790VphGzeUoYX-Ek9tYCiVXzrBd4Q3WrtmmosTV-vlN3vlkpj8pMHUadaZOB9fnwDIqujxVPDqUd21sOGvikLNH7KbMG3uMs6lHp_f0GngYlG6qVqyNxvY-0-h0Soo4vNuNW5PrcWFkvhG5ZwfVRwAO9FAjkOLSW12oVUiKfZdEdN9yHT2ESxOe1wzh8Gyp4t3RK1D8UPpazoKNZ-jOUSSk0zDExfTKYZ3jlluIDYkclwh4axDatMtfHs8XCSYlhyFslG8vEfWT3DT3jmjXB9ic3-ITp7CJWmEKHMOMZsi-zBkCh5D6nNIk4i3F_UpS-Jrfeu5il6eGAU4qhd8J27un-IFIW5_LD22kyJAYpAy9VjPpdUHCU7V_d77rRrJDFRskJgdRe0oTHv-H4HoJUsagSec0yoDMAWAhAzfwYofYxLEU9L3c0zvTFmUAtMmjuV8CRa2YwaFGByKLJl0L0zrkgeE4uz4Nq86N_DXKcqEkxqujwYLR3BQ7qJTZf_nHkghatWWIZklU-OLo5uuEgIwzVkM5_IKPXMWznB4p4KTiI9fhffZgeHBipuLKDEQethOOX9pNuyiQ5MsJIIgAzZJScBHnkmJcLxFuSZn91zutPD_KvFQ_Yuw01Q6ckiCXZ2EJH0rFPhTExk_u4Ek3uey7T3CnEvObxOL4W5pV9-b2413SXODnSqDFky2D4Nh7eNvy0DaYN1FzqFxORj59pFBiB9Lv0GQagXm6wN9F-i0B9kDRDv_vOsxZ95c1wGOajRH7U5_bPCrVKDaWqITy9TNbdqaQhM44yBfB7Kw_kif6Mds5Bc9F61plYcOxwNFLM13kNm8UOx9nlCXn5MgOniwM2VBT-ccw4Tb4Fo9YAk5Z7J5wkFzX4F0Ki2i3Nbr2UoDeybWpXn1lMZ-JelimyjHD9TE-CFdYD74dXRpXNpN_9iaPge6MWhDKbG5Jp9FiCw">
+        </form>
+    </div>
+</div>
+<script>
+    (function(){
+        window._cf_chl_opt={
+            cvId: '2',
+            cZone: 'identity.foundation',
+            cType: 'managed',
+            cNounce: '56851',
+            cRay: '7b98b82caf92e534',
+            cHash: '2d63fa322cb9763',
+            cUPMDTk: "\/EcdsaSecp256k1RecoverySignature2020\/lds-ecdsa-secp256k1-recovery2020-0.0.jsonld?__cf_chl_tk=PUQxWMawXH8I7Kqf89PdwZ0CAKwNNdtFNxKWxnkJt0o-1681776990-0-gaNycGzNCvs",
+            cFPWv: 'b',
+            cTTimeMs: '1000',
+            cMTimeMs: '0',
+            cTplV: 5,
+            cTplB: 'cf',
+            cK: "",
+            cRq: {
+                ru: 'aHR0cHM6Ly9pZGVudGl0eS5mb3VuZGF0aW9uL0VjZHNhU2VjcDI1NmsxUmVjb3ZlcnlTaWduYXR1cmUyMDIwL2xkcy1lY2RzYS1zZWNwMjU2azEtcmVjb3ZlcnkyMDIwLTAuMC5qc29ubGQ=',
+                ra: 'Y3VybC83LjgxLjA=',
+                rm: 'R0VU',
+                d: 'G9eXj/RW4/fYq0VS8Tz0PVS+XJS2s1bExc7maHBtwgwpqRwbmoa9UQf5ZMUbsbFKqYyfReO0L11vC3mV+FOG4cV7zXnaEH9fd6XsVNzMc09YU+lQcazU9hbqJLGNF8ExeeVcCwV3k44TdrzWT/w5v3g3DSfKfpG+zxmb7MGFdgnGGStT4QkmtvId4TeHKjRRXMaJ/Ru7vPT74LfEWDDs0pUygAhRb/sEXjKencj1SBkd3EkQxAalmhBtdQuic9FioE9UZ1mWzztbn8zu75eU9GSK0qiaadsOmn+AhQ+40xDJZbOMZPtl4NqVa2vw4wulSbthLAmLg6frffGoBe6elZ4hWk2sJ2zmB/OF5HCTlGg6rDA1u9WwMDKviviI/AmwmZuctN3fPOBxLs9gYLhqE9XnvnXRhVZTSut0yYvQXDmiBNku638wzhYpXUJf4OTSni1qi55Jl+TBz9rYy2R1CqZ0/OhnrJd6AODCansCs0lRR98e0tE26vHcWr5lOXn2r4hxiikI/n+G3+0Q+hTZK8HSlOunEMlG2xnQtyarOlcUeOPesCazgcbMNRcqw2R+',
+                t: 'MTY4MTc3Njk5MC4xODUwMDA=',
+                m: 'L1O6c5fOEUzJ3FYzMJTUxuthlRFc2HPl47kjpn2LVpo=',
+                i1: '5Yb7DieWkM2AEJk6k7v9DQ==',
+                i2: 'XQVhVzte6kBxJ4UyBkuKTA==',
+                zh: '35403PcnLzgZRNse1zFB+qwPXRKHsgxEaEV1/fJuqTM=',
+                uh: 'XtPohTwN9ruoNwJrCbocmA5soW1XPnkxU/yVFmBLOQo=',
+                hh: 'BQTE2OW2SnDXtyQZ67fpqwnOyfugvJ4MkN+gLC93agw=',
+            }
+        };
+        var trkjs = document.createElement('img');
+        trkjs.setAttribute('src', '/cdn-cgi/images/trace/managed/js/transparent.gif?ray=7b98b82caf92e534');
+        trkjs.setAttribute('alt', '');
+        trkjs.setAttribute('style', 'display: none');
+        document.body.appendChild(trkjs);
+        var cpo = document.createElement('script');
+        cpo.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/managed/v1?ray=7b98b82caf92e534';
+        window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;
+        window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;
+        if (window.history && window.history.replaceState) {
+            var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;
+            history.replaceState(null, null, "\/EcdsaSecp256k1RecoverySignature2020\/lds-ecdsa-secp256k1-recovery2020-0.0.jsonld?__cf_chl_rt_tk=PUQxWMawXH8I7Kqf89PdwZ0CAKwNNdtFNxKWxnkJt0o-1681776990-0-gaNycGzNCvs" + window._cf_chl_opt.cOgUHash);
+            cpo.onload = function() {
+                history.replaceState(null, null, ogU);
+            };
+        }
+        document.getElementsByTagName('head')[0].appendChild(cpo);
+    }());
+</script>
+
+
+</body>
+</html>

@@ -1,87 +1,86 @@
-{
-  "@context": {
-    "id": "@id",
-    "type": "@type",
-    "@protected": true,
-    "proof": {
-      "@id": "https://w3id.org/security#proof",
-      "@type": "@id",
-      "@container": "@graph"
-    },
-    "EcdsaSecp256k1RecoveryMethod2020": {
-      "@id": "https://identity.foundation/EcdsaSecp256k1RecoverySignature2020#EcdsaSecp256k1RecoveryMethod2020",
-      "@context": {
-        "@protected": true,
-        "id": "@id",
-        "type": "@type",
-        "controller": {
-          "@id": "https://w3id.org/security#controller",
-          "@type": "@id"
-        },
-        "blockchainAccountId": "https://w3id.org/security#blockchainAccountId",
-        "publicKeyJwk": {
-          "@id": "https://w3id.org/security#publicKeyJwk",
-          "@type": "@json"
-        }
-      }
-    },
-    "EcdsaSecp256k1RecoverySignature2020": {
-      "@id": "https://identity.foundation/EcdsaSecp256k1RecoverySignature2020#EcdsaSecp256k1RecoverySignature2020",
-      "@context": {
-        "@protected": true,
-        "id": "@id",
-        "type": "@type",
-        "challenge": "https://w3id.org/security#challenge",
-        "created": {
-          "@id": "http://purl.org/dc/terms/created",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        },
-        "domain": "https://w3id.org/security#domain",
-        "expires": {
-          "@id": "https://w3id.org/security#expiration",
-          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-        },
-        "jws": "https://w3id.org/security#jws",
-        "nonce": "https://w3id.org/security#nonce",
-        "proofPurpose": {
-          "@id": "https://w3id.org/security#proofPurpose",
-          "@type": "@vocab",
-          "@context": {
-            "@protected": true,
-            "id": "@id",
-            "type": "@type",
-            "assertionMethod": {
-              "@id": "https://w3id.org/security#assertionMethod",
-              "@type": "@id",
-              "@container": "@set"
-            },
-            "authentication": {
-              "@id": "https://w3id.org/security#authenticationMethod",
-              "@type": "@id",
-              "@container": "@set"
-            },
-            "capabilityInvocation": {
-              "@id": "https://w3id.org/security#capabilityInvocationMethod",
-              "@type": "@id",
-              "@container": "@set"
-            },
-            "capabilityDelegation": {
-              "@id": "https://w3id.org/security#capabilityDelegationMethod",
-              "@type": "@id",
-              "@container": "@set"
-            },
-            "keyAgreement": {
-              "@id": "https://w3id.org/security#keyAgreementMethod",
-              "@type": "@id",
-              "@container": "@set"
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Just a moment...</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="/cdn-cgi/styles/challenges.css" rel="stylesheet">
+    
+
+</head>
+<body class="no-js">
+    <div class="main-wrapper" role="main">
+    <div class="main-content">
+        <noscript>
+            <div id="challenge-error-title">
+                <div class="h2">
+                    <span class="icon-wrapper">
+                        <div class="heading-icon warning-icon"></div>
+                    </span>
+                    <span id="challenge-error-text">
+                        Enable JavaScript and cookies to continue
+                    </span>
+                </div>
+            </div>
+        </noscript>
+        <div id="trk_jschal_js" style="display:none;background-image:url('/cdn-cgi/images/trace/managed/nojs/transparent.gif?ray=7b98b82cffd4e534')"></div>
+        <form id="challenge-form" action="/EcdsaSecp256k1RecoverySignature2020/lds-ecdsa-secp256k1-recovery2020-2.0.jsonld?__cf_chl_f_tk=clDlL7UGLLKTA7ZceNJwntEbxB_lg87I30EzJ.c35x8-1681776990-0-gaNycGzNCZA" method="POST" enctype="application/x-www-form-urlencoded">
+            <input type="hidden" name="md" value=".ufUedUzp3VrlD4Z1DlL4dZtve4CoAIU94X1c2m8YrM-1681776990-0-AadHwPUKganrQqo2n25H9sDLlZsVSpd8J6yLnP7fhFjEdxClePVmxCo71ts2Au4j6kV6v1ffpp3-j7LalYfnYOJTi6N4MHXMzBWGGIl6jnL7pSCpd_EWZLkLLOFgr9-ryV7jF6k2LNhNbV0T0FBRx7xM-oUFFexcHnBAz2qEZGZYBv_PoNiM1tQUj0CioTzVJMZiWLGr9qJD_yy04_gcM3hVXHjAovYoOPfQCyS2RNHjuSBc7JBH4GOclNAuj3DzCHTLpIeYAFLJeyKQakkD5H731xnh9lBB_Ey0q3iQ4xb1eTISU4Y8NJqJ-2Kb77uQAtUASqOlz4QssNKKK_pdmFoiOmyXtWMTAaBrTuwu1FV8DoySCUgm9Kq0-3YVsBlUE1t_jkt_AsDN11DRyrvOIiMgUKVXA0_k7_MaWLZOr6u7jTG0Q1XkwPPkvxDEbGmEwtziGdnqfBk_utR1aMBzM8EtMFC9dxCTnmTTQ2hDMCIvUguLk37P_6X0LYVTkBGx87O3sGXTCrjhbdIoJGDcnPFn0UeLkcHg_-rLys6ICt2LwZ07eL-I3kbKJWxj5a2Iw8jKx2GHT858mNfmZP-3I43bNX7ldDUGDucv5vW_rOJEBIUv7A_0C7cUsJcC00phwjcCDofdM5I5Ql1H_S9CqZLlmrkUQwdchWDEuXCGkCWY89L8LStLnrydcU4oLK1xlKLER40dXXqQhdtUVONuYlgvi1CN8z-T-ejkOyMKyEhH-3mmGskk-h9i8EBJnFZ4HA6BVyUeBCJ-FJgEO6msTzuEc6JtB2B34KXLVbKdGIayXf4Jirlir7XnZ2jPFQExvulIrv0vqAEm1GxEciSzDSgYKfd35AQ9NANJ_gjNMQplaz9pugvYQocsoH333JJWIYkY5wf9FJY0JTvzZIwYdQkQBVpi1QvYDLz79tjHeY0bEy_YOYO6rgIvZoH7O6O4CZ4NWPOq_Fxk0XDTVs5QtGM_uJ2XqQRmoiBRWIO4logcsUOueIeeD7z-7qXxjCa8AuxjDLAa8naS8kCE0IqSOOFu6XZX4lhlkICNZ0Dvuv-wDV587uODT92-zvrioade9CK0kpKqWOj3jkXOJCh_lfzXqHIkqIE2-hXxEoLF_88ShXaudJTEOTACilLzTepG3efrVmJbb11amywQoawRYVXEKopZEuGYOksrxlcofhzI-NDv8WUYbSSCuobGfimS-VQdLw_hJ-jDN1sUUz4hXpuRtOOez3c42V6OIjlnbp__QkMB9j-VOlEWdvPu0nfJYvEW3yYtWzfFBxJ_YRK8BXbCZUP7Zbo_FkSb5xl_rczZ596fukjXretxB2wt1S6RiRtLt8ArEX5kJMqcgBPQoBNvazGC4CM4giPMHvomjjZ-ZcmPmUMDuqgDq9TvCGJXi430n3g7b7xjUHja1IETwC4JLqm1Dd7E1GSDi5HGUCK-p9V0HhHcHorKlybLsRYzWVi903Ae6krPue3jXj7vLrFNaS3LoIo_h33ZkxMxWcnVtwUGgIURB2WCsZyOkp2FpbK59CjgPuDjty_DoAC9bignt6HUYXjh4Z7Gtufx2p85zb5co59qh2mb5nysP9z4yUH25EgA9M2OOQjZBvO40mHrkObUFXfQ9ZCDuk6Waoo6zMsdjjzqw3uIKDYTJl-FJPtvbnsK9Q-1CE_cGe7iWujD5DwjxpvT92k9MgdCG84ALMpChmIgV4BQ1UHGQGZp4VJwQCQGkEJGhxZyWqocR6ZyZ4OTNeGIOfet0U4CQKbwG8fzK2UipcMotAEglSrGV2uo7eb-fZaqZI2mk2UiVQblckT2o9fbuZO0xBGAosUaV3ykdy9YLSAxZ5Pm9M37wvKj6d7N-aU4KJDjKoWvfWNgc5O8GAr_lHA5ANGc1hFnAWyK53qkSubhMtY-83q26FrJtQL2x1X8cVBuqJcIe2cJ1Xo0kQMopUISjeqhDUhQ4Q1mBbKRGl4JZwfPU0SGwMRZ9sgkGyv-B9Co7gto3d-KyePMC2BhFIK6fcjgmDpILfq6gW2Bq9F4c-IS7n5ht_UBJ7P_QJpy0k0C8EtP2K6c2DL-7LErTTBq0uxRXI8pOTj5vsPncK9iQwNoCugtvQakDWtoO35Mj3aopgukOqFEaAOFAfeqBqtpnrGX61-gfWTf5QC1z_eh9LM8hStFnpy0dyXc1sGO6zN-eeIAGyh6iAiGMAcM4Rg-lps3uyXInIHh6PQcogsMpl4xYZLTDl_GTsWtthVjqlRzuEyhDzG2mTbJC0T4J5nzwwoXMpR38603k8RbgeJ5LUZTHUShNNEvfMYZYWIOyCOZPfB5M3Ifk5n-hbeuSj0L4z0KHDcbf81FmeW9WJ64Mx2vwyEQhxRidqJOh4UseDq7rg7VQXI">
+        </form>
+    </div>
+</div>
+<script>
+    (function(){
+        window._cf_chl_opt={
+            cvId: '2',
+            cZone: 'identity.foundation',
+            cType: 'managed',
+            cNounce: '73370',
+            cRay: '7b98b82cffd4e534',
+            cHash: '22381284794e166',
+            cUPMDTk: "\/EcdsaSecp256k1RecoverySignature2020\/lds-ecdsa-secp256k1-recovery2020-2.0.jsonld?__cf_chl_tk=clDlL7UGLLKTA7ZceNJwntEbxB_lg87I30EzJ.c35x8-1681776990-0-gaNycGzNCZA",
+            cFPWv: 'b',
+            cTTimeMs: '1000',
+            cMTimeMs: '0',
+            cTplV: 5,
+            cTplB: 'cf',
+            cK: "",
+            cRq: {
+                ru: 'aHR0cHM6Ly9pZGVudGl0eS5mb3VuZGF0aW9uL0VjZHNhU2VjcDI1NmsxUmVjb3ZlcnlTaWduYXR1cmUyMDIwL2xkcy1lY2RzYS1zZWNwMjU2azEtcmVjb3ZlcnkyMDIwLTIuMC5qc29ubGQ=',
+                ra: 'Y3VybC83LjgxLjA=',
+                rm: 'R0VU',
+                d: 'Iwp9bNs9Hf3CU5Qk5PGi0hf8SxIuz930dtXJHCAjCSIai9T2+aD/i+R5zKuEFFLdbbsAMxDno0CGDAIfYQf64VqK8Xktt8bGHNKi1vgUZLUNu5CXTq/zbYq//DYDrFbCalnJ9SEiTywywSr5g/RJ5I8CX5io2ZQvIVagyHqs4RsHUD3ehQrT93f+1ySBMNWgAYh2mNstfPsz495YkT2g07I3Ysqlx+qDky6Hll7xXGCUgsmwO2wHlSPp77WKdinNfC264VkgyS/sBhv5xSwd9DgKRFtj4fhNRTOQr2MqwdV3wDreSdnWgnt7ez6SkpqAjSThRfuKqRr097nCF4prFXTY+m1r6/pdnVl8fypuyM+C6KwnmYnK5fbUsdRUvBSXLIb1Uc8E1o9CDjpV7hEZlyS+KocIYYvBGIzlxhHjdSEtNLV5wit5wRNUgNMauR8fsexKiIsf5/gOyxzzWW1Si3J6IcCve0MAesRofFpB/oUHCcApyR9qU4EdzB/Aqayt3lArPL7Q9PFJDp9LPa+HSRLzpTMD4u59YDZcyPND6T8KzXCFSeKpQ8mhSsiQ9i6c',
+                t: 'MTY4MTc3Njk5MC4yMzkwMDA=',
+                m: 'PqNhzmV/YCIbxRkHzgeDe7WV4qnHH0Z83qaB3BTS8bg=',
+                i1: 'v0fthTtMmPUaI94Wbuzhow==',
+                i2: 'rrShX4KsAfvjuPGzVCWsCg==',
+                zh: '35403PcnLzgZRNse1zFB+qwPXRKHsgxEaEV1/fJuqTM=',
+                uh: 'XtPohTwN9ruoNwJrCbocmA5soW1XPnkxU/yVFmBLOQo=',
+                hh: 'BQTE2OW2SnDXtyQZ67fpqwnOyfugvJ4MkN+gLC93agw=',
             }
-          }
-        },
-        "verificationMethod": {
-          "@id": "https://w3id.org/security#verificationMethod",
-          "@type": "@id"
+        };
+        var trkjs = document.createElement('img');
+        trkjs.setAttribute('src', '/cdn-cgi/images/trace/managed/js/transparent.gif?ray=7b98b82cffd4e534');
+        trkjs.setAttribute('alt', '');
+        trkjs.setAttribute('style', 'display: none');
+        document.body.appendChild(trkjs);
+        var cpo = document.createElement('script');
+        cpo.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/managed/v1?ray=7b98b82cffd4e534';
+        window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;
+        window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;
+        if (window.history && window.history.replaceState) {
+            var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;
+            history.replaceState(null, null, "\/EcdsaSecp256k1RecoverySignature2020\/lds-ecdsa-secp256k1-recovery2020-2.0.jsonld?__cf_chl_rt_tk=clDlL7UGLLKTA7ZceNJwntEbxB_lg87I30EzJ.c35x8-1681776990-0-gaNycGzNCZA" + window._cf_chl_opt.cOgUHash);
+            cpo.onload = function() {
+                history.replaceState(null, null, ogU);
+            };
         }
-      }
-    }
-  }
-}
+        document.getElementsByTagName('head')[0].appendChild(cpo);
+    }());
+</script>
+
+
+</body>
+</html>
